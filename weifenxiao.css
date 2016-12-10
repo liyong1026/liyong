@@ -1,0 +1,245 @@
+*{
+	padding: 0;
+    margin: 0;
+    font-family: 'Microsoft YaHei';
+}
+
+.top{
+	margin: 0 auto;
+	text-align:center;
+	width: 1400px;
+	height:100px;
+}
+.nav{
+
+	text-align: center;
+	list-style: none;
+	padding-left: 100px;
+	height: 200px;
+	width: 1400px;
+}
+.top>span{
+	float: left;
+	background-color: red;
+	position: relative;
+	left: 100px
+	font-size:10px;
+	font-weight: bold;
+}
+.text-nav{
+	float: left;
+	height: 76px;
+	line-height: 76px;
+	width: 100px;	
+}
+.nav-ul{
+	text-align: center;
+	line-height:50px;
+	list-style: none;
+	background-color: red;
+	height:156px;
+	width: 80px;
+	display: none;
+
+}
+.text-nav:hover{
+	background-color: #424242;
+}
+.text-nav:hover .nav-ul{
+	display: block;
+	background-color:#424242;
+}
+.nav li:hover a{
+	color:red;
+}
+.first{
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: 350px 0px,0px 20px;
+	background-image: url('./img/11.png'),url('./img/10.png');
+    height: 320px;
+    width: 1400px;
+}
+.first1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.first2{size: 
+	font-size: 30px;
+	font-weight: bold;
+}
+.first>p{
+	font-size: 25px;
+	text-align: center;
+	color: red;
+}
+.second{
+	font-weight: bold;
+	text-align: center;
+	width: 1000px
+	height:320px;
+}
+.second1{
+	font-size: 40px;
+	color: #FF4500;
+}
+.second2{
+    font-size:50px;
+    font-weight: bold;
+}
+.second3{
+	padding-left: 150px;
+	width: 800px;
+	text-align: 2em;
+}
+.third{
+	width: 1400px;
+	height: 320px;
+	background-position: 50px -30px;
+	background-repeat: no-repeat;
+	background-image: url('./img/3.png');
+}
+.third1{
+	font-weight: bold;
+	padding-left: 750px;
+	font-size: 40px;
+}
+.third>li{
+	padding-left: 750px;
+}
+.fourth{
+	width: 1400px;
+	height: 320px;
+	background-repeat: no-repeat;
+    background-position: 700px 0px;
+	background-image: url('./img/1.png');
+}
+.fourth1{
+	font-weight: bold;
+	padding-top: 100px;
+	padding-left: 100px;
+	font-size: 40px;
+}
+.fourth2{
+	padding-left: 100px;
+}
+.five{
+	width: 1400px;
+	height: 320px;
+	background-repeat: no-repeat;
+    background-position: 50px 0px;
+	background-image: url('./img/4.png');
+}
+.five1{
+	font-weight: bold;
+	padding-top: 100px;
+	padding-left: 750px;
+	font-size: 40px;
+}
+.five2{
+	padding-left: 750px;
+}
+.six{
+	width: 1400px;
+	height: 320px;
+	background-repeat: no-repeat;
+    background-position: 700px 0px;
+	background-image: url('./img/7.png');
+}
+.six1{
+	font-weight: bold;
+	padding-top: 100px;
+	padding-left: 100px;
+	font-size: 40px;
+}
+.six2{
+	padding-left: 100px;
+}
+.ppp{
+	width: 1400px;
+
+	padding-top: 100px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+.seve{
+	width: 1400px;
+	height: 350px;
+	background-repeat: no-repeat;
+    background-position: 80px 130px;
+	background-image: url('./img/2016.png');
+}
+.seven1{
+	padding-left: 30px;
+	padding-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: green;
+}
+.eight{
+	width: 1400px;
+	height: 320px;
+	background-repeat: no-repeat;
+    background-position: 750px 0px;
+	background-image: url('./img/8.png');
+}
+.eight1{
+	padding-left: 50px;
+	padding-top: 80px;
+    font-weight: bold;
+    font-size: 30px;
+    color: green;
+}
+.nine{
+	width: 1400px;
+	height: 320px;
+	background-repeat: no-repeat;
+    background-position: 50px 0px;
+	background-image: url('./img/5.png');
+}
+.nine2{
+	padding-left: 750px;
+}
+.ten{
+	width: 1400px;
+	height: 500px;
+	background-repeat: no-repeat;
+    background-position: 750px 50px;
+	background-image: url('./img/2.png');
+}
+.ten1{
+	font-weight: bold;
+	padding-left: 100px;
+	padding-top: 100px;
+	width: 500px;
+}
+.ten2{
+	padding-left: 50px;
+	padding-top: 80px;
+    font;-weight: bold;
+    font-size: 30px;
+    color: green;
+}
+.eleven{
+	width: 1492px;
+	height: 210px;
+	background-color: black;
+	color: white;
+}
+.eleven>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+	background-color: #3B3B3B;
+	padding-top:15px;
+	padding-bottom: 40px;
+	color: #ECECEC;
+	text-align: center;
+	line-height: 35px;
+}
+footer a{
+	color: #ECECEC;
+	text-decoration: none;
+}
